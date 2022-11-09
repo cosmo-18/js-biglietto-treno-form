@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+#login {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 2%;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+header{
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  width: 20%;
+}
+.tab {
+  width: 100%;
+  padding: 30px 0px;
+  background: #f0f0f0;
+  text-align: center;
+}
+.form{
+  width: 60%;
+  margin: auto;
+}
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+select{
+  margin: 10px;
+  padding: 2px;
+}
+.button {
+  width: 100px;
+  background: red;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: red;
+  border-radius: 8px;
+  padding: 3px;
+}
+.prezz{
+    margin-left: 50px;
+}
+#risultato, #scontoapplicato{
+  margin-left: 100px;
+  padding: 4px 50px;
+  border: 1px solid lightgrey;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 15px;
+  vertical-align:middle;
+  margin: auto;
+}
+.sconto{
+  margin-top: 30px;
+}
+.form-prezzo{
+  margin-top: 30px;
+}
