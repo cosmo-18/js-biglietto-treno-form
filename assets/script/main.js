@@ -1,7 +1,7 @@
 function Acquisizione() {
 
     let città = document.getElementById('città').value;
-    let età = document.getElementById('age').value
+    let età = document.getElementById('age').value;
     let prezzKm = 0.21;
 
     if (città == 'Taranto') {
@@ -15,7 +15,12 @@ function Acquisizione() {
     if (città == 'Bologna' ) {
         risultato = 900 * prezzKm;
 
-    } else if (età<=18) {
+    } 
+    if(!età){
+
+    }
+
+    else if (età<=18) {
         sconto = (risultato*20)/100;
         totale = risultato - sconto;
 
@@ -25,6 +30,6 @@ function Acquisizione() {
     }
     
     document.getElementById('risultato').innerHTML = risultato;
-    document.getElementById('scontoapplicato').innerHTML= totale
+    document.getElementById('scontoapplicato').innerHTML= totale;
    
     }
